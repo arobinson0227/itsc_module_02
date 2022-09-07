@@ -5,7 +5,7 @@ dict_1 = input('Enter a string: ')
 dict_2 = input('Enter a string: ')
 
 # Create a function that takes in the two dicts and compute a new dict which combines the two dicts by summing the values for the common keys
-def get_combined_dict(dict_1, dict_2):
+def get_combined_dict(dict_1, dict_2): # The name of the function as shown in the test code
     combined_dict = {} # new dict
     # identify common keys between the two dicts
     for key in dict_2:
